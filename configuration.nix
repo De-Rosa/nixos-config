@@ -9,6 +9,8 @@
     ./modules/programs.nix
     ./modules/hypr.nix
     ./modules/desktop.nix
+    ./modules/vpn.nix
+
   ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];

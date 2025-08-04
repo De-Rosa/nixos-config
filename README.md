@@ -6,7 +6,7 @@ nixos configuration and home manager setup
 ## installation
 
 ```
-git clone https://github.com/DeRosa/nixos-config.git
+git clone https://github.com/De-Rosa/nixos-config.git
 cd nixos-config
 sudo nixos-rebuild switch --flake .#hostname
 ```

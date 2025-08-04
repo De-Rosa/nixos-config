@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ inputs, pkgs, ... }:
 
 {
   environment.systemPackages = with pkgs; [
@@ -6,6 +6,7 @@
     wget
     btop
     git
+    inputs.anifetch.packages.${pkgs.system}.default
     fastfetch
     unzip
     tmux
