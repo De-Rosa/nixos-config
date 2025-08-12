@@ -24,12 +24,7 @@
       options = [ "fmask=0022" "dmask=0022" ];
     };
 
-#  fileSystems."/mnt/Windows" =
-#    { device = "/dev/disk/by-uuid/BCC0E875C0E836F4";
-#      fsType = "ntfs-3g";
-#      options = [ "rw" "uid=1000" ];
-#    };
-#
+  #
 #  fileSystems."/mnt/SSD" =
 #    { device = "/dev/disk/by-uuid/088C25198C2502B4";
 #      fsType = "ntfs-3g";

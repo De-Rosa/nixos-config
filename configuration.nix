@@ -9,7 +9,6 @@
     ./modules/programs.nix
     ./modules/hypr.nix
     ./modules/desktop.nix
-    ./modules/vpn.nix
 
   ];
 
@@ -27,6 +26,7 @@
   console.keyMap = "uk";
 
   nixpkgs.config.allowUnfree = true;
+  services.flatpak.enable = true;
 
   system.stateVersion = "25.05";
 }

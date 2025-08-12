@@ -13,9 +13,14 @@
     zoxide
     hyprpaper
     hyprcursor
+    grim
+    slurp
+    wl-clipboard
+    hyprshot
     hyprlock
     wlogout
     ly
+    playerctl
   ];
 
   environment.sessionVariables = {

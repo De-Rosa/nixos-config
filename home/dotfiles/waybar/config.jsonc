@@ -6,7 +6,6 @@
     "modules-left": ["cava", "hyprland/window"],
     "modules-center": ["hyprland/workspaces"],
     "modules-right": [
-      "mpris",
       "wireplumber",
       "clock",
       "custom/power",

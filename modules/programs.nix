@@ -9,7 +9,7 @@
 
     ohMyZsh = {
       enable = true;
-      plugins = [ "git" ];
+      plugins = [ "git" "web-search" ];
       custom = "$HOME/.oh-my-zsh/custom/";
       theme = "powerlevel10k/powerlevel10k";
     };
@@ -23,6 +23,9 @@
       withVencord = true;
     })
     google-chrome
+
+    wineWowPackages.stable
+    winetricks
   ];
 }
 
