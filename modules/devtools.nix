@@ -16,6 +16,7 @@
     python3
     eza
     ntfs3g
+    parted
   ];
 }
 
